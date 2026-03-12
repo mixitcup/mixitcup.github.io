@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Mixer-Glas Silhouette -->
+  <path d="M10,4 L54,4 L46,56 L18,56 Z" fill="#6b48c8" rx="3"/>
+  <!-- Smoothie (grün) -->
+  <path d="M24,28 L40,28 L38,52 L26,52 Z" fill="#c0e843"/>
+  <!-- Deckel -->
+  <rect x="7" y="0" width="50" height="7" rx="3" fill="#5038b0"/>
+  <!-- Fuß -->
+  <rect x="16" y="56" width="32" height="8" rx="4" fill="#5038b0"/>
+  <!-- Strohhalm -->
+  <rect x="38" y="-8" width="5" height="30" rx="2.5" fill="#e8294a" transform="rotate(8,40,10)"/>
+</svg>

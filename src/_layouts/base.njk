@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ description or 'Mix it Cup 2026 – Trampolinwettkampf des Hochschulsports Münster. 20.–22. November 2026.' }}">
+  <title>{{ title or 'Mix it Cup 2026' }} – Trampolinwettkampf Münster</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="site-nav" aria-label="Hauptnavigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="Mix it Cup Startseite">
+        <span class="logo-mix">Mix</span><span class="logo-it">it</span> <span class="logo-cup">Cup</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="/" class="{{ 'active' if page.url == '/' }}">Start</a></li>
+        <li><a href="/ausschreibung/" class="{{ 'active' if page.url == '/ausschreibung/' }}">Ausschreibung</a></li>
+        <li><a href="/anmeldung/" class="{{ 'active' if page.url == '/anmeldung/' }}">Anmeldung</a></li>
+        <li><a href="/anreise/" class="{{ 'active' if page.url == '/anreise/' }}">Anreise</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    {{ content | safe }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">
+        <span class="mix">Mix</span><span class="it">it</span> <span class="cup">Cup</span> 2026
+      </div>
+      <p>Trampolinturnen beim Hochschulsport Münster</p>
+      <p style="margin-top:0.5rem;">
+        Universitätssporthalle · Horstmarer Landweg 51 · 48149 Münster
+      </p>
+      <p style="margin-top:1rem; opacity:0.5; font-size:0.8rem;">
+        &copy; 2026 Hochschulsport Münster – Trampolinturnen
+      </p>
+    </div>
+  </footer>
+
+  <!-- Countdown + Mobile Nav JS -->
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

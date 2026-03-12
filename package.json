@@ -1,0 +1,12 @@
+{
+  "name": "mix-it-cup-website",
+  "version": "1.0.0",
+  "description": "Mix it Cup 2026 – Trampolinwettkampf Hochschulsport Münster",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

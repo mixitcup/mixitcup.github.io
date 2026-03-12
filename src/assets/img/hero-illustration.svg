@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 500" width="520" height="500" role="img" aria-label="Freche Früchte springen auf einem Wettkampftrampolin in einen Mixer">
+
+  <!-- Background blobs -->
+  <ellipse cx="260" cy="260" rx="240" ry="220" fill="#f0fde0" opacity="0.6"/>
+
+  <!-- ==================== TRAMPOLIN (Eurotramp Ultimate) ==================== -->
+  <!-- Trampolin-Gestell (Beine) -->
+  <g stroke="#888" stroke-width="4" fill="none">
+    <line x1="80" y1="340" x2="70" y2="400"/>
+    <line x1="440" y1="340" x2="450" y2="400"/>
+    <line x1="80" y1="340" x2="90" y2="400"/>
+    <line x1="440" y1="340" x2="430" y2="400"/>
+  </g>
+  <!-- Trampolin Querstreben -->
+  <rect x="68" y="395" width="30" height="8" rx="3" fill="#666"/>
+  <rect x="422" y="395" width="30" height="8" rx="3" fill="#666"/>
+
+  <!-- Seitenrahmen (Stahlrahmen, charakteristisch rechteckig) -->
+  <rect x="60" y="308" width="400" height="38" rx="6" fill="#c0c8d8" stroke="#8a94a8" stroke-width="2"/>
+  <!-- Rahmen-Detaillinien (Polster-Optik) -->
+  <rect x="62" y="310" width="396" height="34" rx="5" fill="none" stroke="#a0a8b8" stroke-width="1" stroke-dasharray="8,4"/>
+
+  <!-- Tuch-Federbefestigungen links & rechts -->
+  <g fill="#8a94a8">
+    <rect x="60" y="316" width="8" height="3" rx="1"/>
+    <rect x="60" y="323" width="8" height="3" rx="1"/>
+    <rect x="60" y="330" width="8" height="3" rx="1"/>
+    <rect x="452" y="316" width="8" height="3" rx="1"/>
+    <rect x="452" y="323" width="8" height="3" rx="1"/>
+    <rect x="452" y="330" width="8" height="3" rx="1"/>
+  </g>
+
+  <!-- Federn oben und unten (vereinfacht) -->
+  <g stroke="#a0a8b8" stroke-width="1.5" fill="none">
+    <!-- obere Federn -->
+    <line x1="120" y1="282" x2="120" y2="310"/>
+    <line x1="180" y1="282" x2="180" y2="310"/>
+    <line x1="240" y1="282" x2="240" y2="310"/>
+    <line x1="300" y1="282" x2="300" y2="310"/>
+    <line x1="360" y1="282" x2="360" y2="310"/>
+    <line x1="420" y1="282" x2="420" y2="310"/>
+    <!-- Federn mit Zickzack-Optik -->
+    <polyline points="120,282 116,290 124,296 118,302 120,310" stroke="#b0b8c8" stroke-width="1.2"/>
+    <polyline points="180,282 176,290 184,296 178,302 180,310" stroke="#b0b8c8" stroke-width="1.2"/>
+    <polyline points="240,282 236,290 244,296 238,302 240,310" stroke="#b0b8c8" stroke-width="1.2"/>
+    <polyline points="300,282 296,290 304,296 298,302 300,310" stroke="#b0b8c8" stroke-width="1.2"/>
+    <polyline points="360,282 356,290 364,296 358,302 360,310" stroke="#b0b8c8" stroke-width="1.2"/>
+    <polyline points="420,282 416,290 424,296 418,302 420,310" stroke="#b0b8c8" stroke-width="1.2"/>
+  </g>
+
+  <!-- Tuch (blaue Kreuzlinien, typisch für Wettkampftrampolin) -->
+  <rect x="68" y="258" width="384" height="26" rx="2" fill="#3a6aaa" opacity="0.85"/>
+  <!-- Tuch-Kreuzmarkierung (charakteristisches Raster) -->
+  <g stroke="#5a8acc" stroke-width="0.8" opacity="0.7">
+    <line x1="68" y1="271" x2="452" y2="271"/>
+    <line x1="132" y1="258" x2="132" y2="284"/>
+    <line x1="196" y1="258" x2="196" y2="284"/>
+    <line x1="260" y1="258" x2="260" y2="284"/>
+    <line x1="324" y1="258" x2="324" y2="284"/>
+    <line x1="388" y1="258" x2="388" y2="284"/>
+  </g>
+  <!-- rotes Kreuz in der Mitte (Wettkampfmarkierung) -->
+  <line x1="245" y1="258" x2="275" y2="284" stroke="#e8294a" stroke-width="2.5"/>
+  <line x1="275" y1="258" x2="245" y2="284" stroke="#e8294a" stroke-width="2.5"/>
+
+  <!-- ==================== MIXER (rechts, groß) ==================== -->
+  <g transform="translate(330, 60)">
+    <!-- Mixer-Behälter -->
+    <path d="M20,0 L140,0 L120,160 L40,160 Z" fill="#f0f4ff" stroke="#8090c8" stroke-width="3"/>
+    <!-- Mixer-Glas Highlight -->
+    <path d="M35,10 L55,10 L45,140 L32,140 Z" fill="white" opacity="0.4"/>
+    <!-- Smoothie-Inhalt -->
+    <path d="M44,80 L116,80 L112,155 L48,155 Z" fill="#c0e843" opacity="0.8"/>
+    <!-- Smoothie-Blasen -->
+    <circle cx="70" cy="110" r="5" fill="white" opacity="0.5"/>
+    <circle cx="90" cy="125" r="3" fill="white" opacity="0.5"/>
+    <circle cx="80" cy="100" r="4" fill="white" opacity="0.4"/>
+    <!-- Strohhalm -->
+    <rect x="100" y="-30" width="8" height="90" rx="4" fill="#e8294a" transform="rotate(10, 104, 50)"/>
+    <ellipse cx="106" cy="-28" rx="5" ry="3" fill="#c01535" transform="rotate(10, 104, 50)"/>
+    <!-- Mixer-Deckel -->
+    <path d="M15,-15 L145,-15 L140,0 L20,0 Z" fill="#8090c8" stroke="#6070b0" stroke-width="2"/>
+    <rect x="70" y="-35" width="20" height="22" rx="4" fill="#6070b0"/>
+    <!-- Mixer-Fuß -->
+    <rect x="30" y="160" width="100" height="20" rx="6" fill="#6070b0" stroke="#5060a0" stroke-width="2"/>
+    <rect x="45" y="180" width="70" height="15" rx="4" fill="#5060a0"/>
+    <!-- Mixer-Knöpfe -->
+    <circle cx="55" cy="188" r="4" fill="#c0e843"/>
+    <circle cx="80" cy="188" r="4" fill="#e8294a"/>
+    <circle cx="105" cy="188" r="4" fill="#f7c948"/>
+  </g>
+
+  <!-- Mixer-Spritzeffekt (Smoothie fliegt raus!) -->
+  <g opacity="0.9">
+    <ellipse cx="350" cy="58" rx="12" ry="8" fill="#c0e843" transform="rotate(-20,350,58)"/>
+    <ellipse cx="370" cy="45" rx="8" ry="5" fill="#f7c948" transform="rotate(15,370,45)"/>
+    <circle cx="340" cy="40" r="6" fill="#e8294a" opacity="0.8"/>
+    <circle cx="390" cy="55" r="5" fill="#5ab22e" opacity="0.8"/>
+  </g>
+
+  <!-- ==================== FRÜCHTE (springen auf dem Trampolin) ==================== -->
+
+  <!-- Erdbeere (links, springt hoch) -->
+  <g transform="translate(95, 90) rotate(-12)">
+    <!-- Körper -->
+    <path d="M0,45 C-20,45 -32,25 -28,8 C-24,-8 -12,-15 0,-15 C12,-15 24,-8 28,8 C32,25 20,45 0,45 Z" fill="#e8294a"/>
+    <!-- Punkte -->
+    <circle cx="-10" cy="15" r="2.5" fill="#c01535"/>
+    <circle cx="8" cy="8" r="2.5" fill="#c01535"/>
+    <circle cx="-2" cy="28" r="2" fill="#c01535"/>
+    <circle cx="14" cy="25" r="2" fill="#c01535"/>
+    <!-- Blatt/Strunk -->
+    <path d="M-8,-14 C-14,-22 -6,-28 0,-20 C6,-28 14,-22 8,-14" fill="#5ab22e"/>
+    <line x1="0" y1="-20" x2="0" y2="-28" stroke="#5ab22e" stroke-width="3" stroke-linecap="round"/>
+    <!-- Gesicht -->
+    <circle cx="-9" cy="18" r="5" fill="white"/>
+    <circle cx="9" cy="18" r="5" fill="white"/>
+    <circle cx="-8" cy="19" r="2.5" fill="#1a1a2e"/>
+    <circle cx="10" cy="19" r="2.5" fill="#1a1a2e"/>
+    <!-- Glanz Augen -->
+    <circle cx="-7" cy="18" r="1" fill="white"/>
+    <circle cx="11" cy="18" r="1" fill="white"/>
+    <!-- Fröhlicher Mund -->
+    <path d="M-6,30 Q0,36 6,30" stroke="#c01535" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Wangen -->
+    <circle cx="-14" cy="26" r="4" fill="#f77f28" opacity="0.4"/>
+    <circle cx="14" cy="26" r="4" fill="#f77f28" opacity="0.4"/>
+    <!-- Sprung-Linien -->
+    <line x1="-5" y1="46" x2="-12" y2="58" stroke="#e8294a" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <line x1="5" y1="46" x2="12" y2="58" stroke="#e8294a" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- Banane (Mitte, auf Tuch) -->
+  <g transform="translate(220, 155) rotate(8)">
+    <!-- Bananen-Körper (gebogen) -->
+    <path d="M0,0 C-35,-10 -50,-40 -30,-60 C-10,-80 30,-70 40,-45 C50,-20 25,5 0,0 Z" fill="#f7c948"/>
+    <!-- Schattierung -->
+    <path d="M0,0 C-35,-10 -50,-40 -30,-60" stroke="#d4a520" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Bananen-Enden -->
+    <path d="M-30,-60 C-32,-68 -28,-72 -25,-65" fill="#d4a520"/>
+    <path d="M0,0 C-2,8 4,10 5,4" fill="#d4a520"/>
+    <!-- Gesicht (schräg) -->
+    <circle cx="10" cy="-35" r="4.5" fill="white"/>
+    <circle cx="22" cy="-28" r="4.5" fill="white"/>
+    <circle cx="11" cy="-34" r="2.2" fill="#1a1a2e"/>
+    <circle cx="23" cy="-27" r="2.2" fill="#1a1a2e"/>
+    <circle cx="12" cy="-35" r="0.9" fill="white"/>
+    <circle cx="24" cy="-28" r="0.9" fill="white"/>
+    <!-- Grinsen -->
+    <path d="M8,-22 Q16,-17 23,-21" stroke="#d4a520" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Wangen -->
+    <circle cx="5" cy="-26" r="3.5" fill="#f77f28" opacity="0.4"/>
+    <circle cx="26" cy="-22" r="3.5" fill="#f77f28" opacity="0.4"/>
+  </g>
+
+  <!-- Kiwi (rechts, hüpft freudig) -->
+  <g transform="translate(330, 120) rotate(5)">
+    <!-- Körper -->
+    <ellipse cx="0" cy="0" rx="30" ry="35" fill="#5ab22e"/>
+    <!-- Schnittfläche (Kiwi innen) -->
+    <ellipse cx="0" cy="0" rx="24" ry="28" fill="#c8e830"/>
+    <!-- Kern-Strahlen -->
+    <g stroke="#5ab22e" stroke-width="1.5" opacity="0.7">
+      <line x1="0" y1="-28" x2="0" y2="28"/>
+      <line x1="-28" y1="0" x2="28" y2="0"/>
+      <line x1="-20" y1="-20" x2="20" y2="20"/>
+      <line x1="20" y1="-20" x2="-20" y2="20"/>
+    </g>
+    <!-- Kerne (Punkte) -->
+    <circle cx="0" cy="0" r="4" fill="#3a7a1e"/>
+    <circle cx="-8" cy="-6" r="2.5" fill="#3a7a1e"/>
+    <circle cx="8" cy="-6" r="2.5" fill="#3a7a1e"/>
+    <circle cx="-12" cy="4" r="2" fill="#3a7a1e"/>
+    <circle cx="12" cy="4" r="2" fill="#3a7a1e"/>
+    <!-- Gesicht (über dem Muster) -->
+    <circle cx="-9" cy="-8" r="5" fill="white"/>
+    <circle cx="9" cy="-8" r="5" fill="white"/>
+    <circle cx="-8" cy="-7" r="2.5" fill="#1a1a2e"/>
+    <circle cx="10" cy="-7" r="2.5" fill="#1a1a2e"/>
+    <circle cx="-7" cy="-8" r="1" fill="white"/>
+    <circle cx="11" cy="-8" r="1" fill="white"/>
+    <!-- Zunge raus (frech!) -->
+    <path d="M-5,8 Q0,14 5,8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <ellipse cx="0" cy="14" rx="5" ry="4" fill="#e8294a"/>
+    <!-- Kiwi-Rand -->
+    <ellipse cx="0" cy="0" rx="30" ry="35" fill="none" stroke="#3a7a1e" stroke-width="2"/>
+    <!-- Ärmchen (Siegespose) -->
+    <path d="M-30,-5 C-42,-15 -38,-28 -28,-22" stroke="#5ab22e" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M30,-5 C42,-15 38,-28 28,-22" stroke="#5ab22e" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Orange (ganz links, kleiner im Hintergrund) -->
+  <g transform="translate(50, 175) scale(0.7)" opacity="0.85">
+    <circle cx="0" cy="0" r="32" fill="#f77f28"/>
+    <!-- Schalen-Textur -->
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#d96010" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.4"/>
+    <circle cx="-8" cy="-8" r="2" fill="#d96010" opacity="0.3"/>
+    <circle cx="10" cy="5" r="1.5" fill="#d96010" opacity="0.3"/>
+    <circle cx="-5" cy="12" r="1.5" fill="#d96010" opacity="0.3"/>
+    <!-- Blatt -->
+    <path d="M0,-32 C-8,-42 -2,-50 0,-40 C2,-50 8,-42 0,-32" fill="#5ab22e"/>
+    <!-- Gesicht (erschrocken-begeistert) -->
+    <circle cx="-10" cy="-5" r="5.5" fill="white"/>
+    <circle cx="10" cy="-5" r="5.5" fill="white"/>
+    <circle cx="-9" cy="-4" r="2.8" fill="#1a1a2e"/>
+    <circle cx="11" cy="-4" r="2.8" fill="#1a1a2e"/>
+    <!-- Glanzpunkt -->
+    <circle cx="-8" cy="-5" r="1.1" fill="white"/>
+    <circle cx="12" cy="-5" r="1.1" fill="white"/>
+    <!-- Oh-Mund (überrascht) -->
+    <ellipse cx="1" cy="12" rx="7" ry="5" fill="#c04000"/>
+    <ellipse cx="1" cy="13" rx="5" ry="3.5" fill="#d05010"/>
+  </g>
+
+  <!-- Bewegungslinien / Sprung-Effekte -->
+  <g stroke="#f7c948" stroke-width="2.5" fill="none" opacity="0.6" stroke-linecap="round">
+    <path d="M160,200 Q170,180 185,195"/>
+    <path d="M290,180 Q300,155 315,170"/>
+  </g>
+
+  <!-- Kleine Sterne / Funken -->
+  <g fill="#f7c948">
+    <path d="M165,65 L167,60 L169,65 L174,67 L169,69 L167,74 L165,69 L160,67 Z" opacity="0.9"/>
+    <path d="M420,140 L422,135 L424,140 L429,142 L424,144 L422,149 L420,144 L415,142 Z" opacity="0.7" fill="#e8294a"/>
+    <path d="M70,230 L71.5,226 L73,230 L77,231.5 L73,233 L71.5,237 L70,233 L66,231.5 Z" opacity="0.6" fill="#5ab22e"/>
+  </g>
+
+  <!-- Pfeil zum Mixer (zeigt Richtung) -->
+  <path d="M300,160 Q340,120 380,105" stroke="#6b48c8" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="8,5" opacity="0.7"/>
+  <polygon points="385,98 378,108 391,108" fill="#6b48c8" opacity="0.7" transform="rotate(30,385,103)"/>
+
+</svg>
