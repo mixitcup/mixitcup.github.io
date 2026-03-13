@@ -37,20 +37,16 @@
     </pattern>
 
     <!-- LIMETTENKERNE für "it" (grün) -->
-    <!-- Limettenkerne = kleine ovale Samen, eng nebeneinander, wie in einer halben Limette -->
-    <pattern id="pat-lime-{{ _id }}" patternUnits="userSpaceOnUse" width="13" height="10">
-      <rect width="13" height="10" fill="#4daa20"/>
-      <!-- Helles Inneres (Fruchtfleisch-Ton) -->
-      <rect width="13" height="10" fill="#72cc40" opacity="0.35"/>
-      <!-- Kerne: ovale Tropfenform, leicht gedreht, in typischer Limettenfarbe -->
-      <ellipse cx="2.5"  cy="5"   rx="1.6" ry="2.5" fill="#1e5c08" opacity="0.85" transform="rotate(-5,2.5,5)"/>
-      <ellipse cx="6.5"  cy="3"   rx="1.5" ry="2.4" fill="#1e5c08" opacity="0.80" transform="rotate(8,6.5,3)"/>
-      <ellipse cx="10"   cy="7"   rx="1.5" ry="2.4" fill="#1e5c08" opacity="0.82" transform="rotate(-10,10,7)"/>
-      <ellipse cx="6.5"  cy="8"   rx="1.4" ry="2.2" fill="#265e0a" opacity="0.6"  transform="rotate(5,6.5,8)"/>
-      <!-- Glanzpunkt auf jedem Kern -->
-      <ellipse cx="2"    cy="3.8" rx="0.5" ry="0.8" fill="#a0e060" opacity="0.5"  transform="rotate(-5,2,3.8)"/>
-      <ellipse cx="6"    cy="2"   rx="0.5" ry="0.7" fill="#a0e060" opacity="0.45" transform="rotate(8,6,2)"/>
-      <ellipse cx="9.5"  cy="6"   rx="0.5" ry="0.7" fill="#a0e060" opacity="0.45" transform="rotate(-10,9.5,6)"/>
+    <!-- Wenige helle Kerne, locker verteilt auf großer Pattern-Kachel -->
+    <pattern id="pat-lime-{{ _id }}" patternUnits="userSpaceOnUse" width="20" height="18">
+      <rect width="20" height="18" fill="#4daa20"/>
+      <rect width="20" height="18" fill="#72cc40" opacity="0.25"/>
+      <!-- Kern 1 -->
+      <ellipse cx="5" cy="5" rx="0.85" ry="2.5" fill="#e8dfc0" opacity="0.85" transform="rotate(-15,5,5)"/>
+      <line x1="5" y1="3" x2="4.7" y2="7" stroke="#8a7a40" stroke-width="0.3" opacity="0.35"/>
+      <!-- Kern 2 -->
+      <ellipse cx="15" cy="12" rx="0.8" ry="2.3" fill="#ece3c8" opacity="0.8" transform="rotate(12,15,12)"/>
+      <line x1="15" y1="10.2" x2="15.3" y2="13.8" stroke="#8a7a40" stroke-width="0.3" opacity="0.3"/>
     </pattern>
 
     <!-- ORANGENHAUT für "Cup" (orange) -->

@@ -22,9 +22,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.2543116"
-     inkscape:cx="243.95851"
-     inkscape:cy="265.08564"
+     inkscape:zoom="1.1567855"
+     inkscape:cx="243.77899"
+     inkscape:cy="241.61783"
      inkscape:window-width="1472"
      inkscape:window-height="896"
      inkscape:window-x="0"
@@ -105,7 +105,7 @@
        id="rect4-8"
        width="59.304153"
        height="36.721584"
-       x="423.06409"
+       x="422.90302"
        y="435.18845"
        ry="1.8360792" />
     <rect
@@ -113,7 +113,7 @@
        id="rect4-8-0"
        width="59.818527"
        height="23.857351"
-       x="422.94168"
+       x="422.64584"
        y="410.94861"
        ry="1.1928676" />
     <rect
@@ -121,7 +121,7 @@
        id="rect4-8-5"
        width="60.197765"
        height="16.194927"
-       x="422.75208"
+       x="422.45621"
        y="394.65393"
        ry="0.80974638" />
     <rect
@@ -129,20 +129,62 @@
        id="rect4-8-8"
        width="59.818527"
        height="23.857351"
-       x="423.25104"
+       x="422.64584"
        y="370.60767"
        ry="1.1928676" />
     <rect
-       style="fill:#f9db9e;fill-opacity:1;stroke:#f7ce94;stroke-width:1.4019;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#f9db9e;fill-opacity:1;stroke:#f7ce94;stroke-width:1.42236;stroke-dasharray:none;stroke-opacity:1"
        id="rect4-8-1"
-       width="71.300003"
-       height="8.2319088"
-       x="417.47864"
-       y="363.01831"
-       ry="4.375587" />
+       width="73.577637"
+       height="8.2116356"
+       x="415.7663"
+       y="363.02817"
+       ry="4.3648109" />
+    <rect
+       style="fill:#000000;fill-opacity:0.347656;stroke:#f7ce94;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5"
+       width="20"
+       height="6"
+       x="442.8342"
+       y="373.70712"
+       ry="3" />
+    <rect
+       style="fill:#000000;fill-opacity:0.347656;stroke:#f7ce94;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5-1"
+       width="20"
+       height="6"
+       x="442.8342"
+       y="397.92001"
+       ry="3" />
+    <rect
+       style="fill:#000000;fill-opacity:0.347656;stroke:#f7ce94;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5-8"
+       width="20"
+       height="6"
+       x="442.8342"
+       y="415.73233"
+       ry="3" />
+    <rect
+       style="fill:#000000;fill-opacity:0.347656;stroke:#f7ce94;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5-0"
+       width="20"
+       height="6"
+       x="442.8342"
+       y="440.65186"
+       ry="3" />
+    <path
+       id="rect6"
+       style="fill:#000000;fill-opacity:0.347656;stroke:#f7ce94;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1"
+       d="m 451.53661,451.31641 c -1.4395,0 -2.59961,1.16011 -2.59961,2.59961 v 11.99218 c 0,0.45389 0.11546,0.87945 0.31836,1.25 0.2031,0.54732 0.6583,0.96957 1.22656,1.12696 0.32157,0.14196 0.67941,0.2207 1.05469,0.2207 0.31155,0 0.60841,-0.0546 0.88476,-0.1543 h 8.875 c 1.01719,0 1.83594,-0.81875 1.83594,-1.83594 v -0.7246 c 0,-1.01719 -0.81875,-1.83594 -1.83594,-1.83594 h -7.16211 v -10.03906 c 0,-1.4395 -1.15815,-2.59961 -2.59765,-2.59961 z" />
+    <circle
+       style="fill:#4f4e4e;fill-opacity:0.998047;stroke:none;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1"
+       id="path7"
+       cy="466.12881"
+       cx="460.11691"
+       r="1.5" />
   </g>
   <g
-     transform="translate(372.6684,167.92546)"
+     transform="matrix(0.88958165,0,0,0.86245035,381.7715,193.84718)"
      id="g53"
      inkscape:label="mixer">
     <!-- Mixer-Behälter -->
@@ -156,10 +198,11 @@
     <!-- Smoothie-Inhalt -->
     <!-- Smoothie-Blasen -->
     <path
-       d="m 44,80 h 72 l -4,75 H 48 Z"
+       d="M 39.778351,79.616214 120.22165,80 112,155 H 48 Z"
        fill="#c0e843"
        opacity="0.8"
-       id="path46" />
+       id="path46"
+       sodipodi:nodetypes="ccccc" />
     <circle
        cx="70"
        cy="110"
@@ -192,14 +235,17 @@
        transform="matrix(0.97700343,0.21322359,-0.14103777,0.99000422,0,0)"
        id="rect48"
        style="stroke-width:1.27108" />
-    <ellipse
-       cx="106"
-       cy="-28"
-       rx="5"
-       ry="3"
-       fill="#c01535"
-       transform="rotate(10,104,50)"
-       id="ellipse48" />
+    <rect
+       x="-0.75640523"
+       y="-142.59013"
+       width="7.5785856"
+       height="28.086775"
+       rx="3.963177"
+       fill="#e8294a"
+       transform="matrix(0.10308076,-0.99467299,-0.98052686,0.19638503,0,0)"
+       id="rect48-8"
+       style="stroke-width:0.543723"
+       ry="3.917069" />
     <!-- Mixer-Deckel -->
     <path
        d="M 15,-15 H 145 L 140,0 H 20 Z"
@@ -235,41 +281,24 @@
        fill="#5060a0"
        id="rect51" />
     <!-- Mixer-Knöpfe -->
-    <circle
-       cx="55"
-       cy="188"
-       r="4"
-       fill="#c0e843"
-       id="circle51" />
-    <circle
-       cx="80"
-       cy="188"
-       r="4"
-       fill="#e8294a"
-       id="circle52" />
-    <circle
-       cx="105"
-       cy="188"
-       r="4"
-       fill="#f7c948"
-       id="circle53" />
   </g>
   <!-- Mixer-Spritzeffekt — neu positioniert passend zum neuen translate -->
   <!-- ==================== FRÜCHTE (springen auf dem Trampolin) ==================== -->
   <!-- Erdbeere (links, springt hoch) -->
   <g
-     transform="rotate(-12,841.80545,-590.5093)"
+     transform="rotate(-12,1058.4668,-555.26375)"
      id="g68"
      inkscape:label="erdbeere">
     <!-- Körper -->
     <path
-       d="M 0,45 C -20,45 -32,25 -28,8 -24,-8 -12,-15 0,-15 12,-15 24,-8 28,8 32,25 20,45 0,45 Z"
+       d="M 1.0856263,46.364855 C -15.764374,43.305175 -31.52104,20.654269 -27.52104,3.6542693 -23.52104,-12.345731 -12,-15 0,-15 c 12,0 23.931105,-0.833288 27.931105,15.1667115 4,17.0000005 -9.497419,45.5730335 -26.8454787,46.1981435 z"
        fill="#e8294a"
-       id="path55" />
+       id="path55"
+       sodipodi:nodetypes="ccscc" />
     <!-- Punkte -->
     <circle
-       cx="-10"
-       cy="15"
+       cx="15.14245"
+       cy="-2.3050849"
        r="2.5"
        fill="#c01535"
        id="circle56" />
@@ -280,17 +309,49 @@
        fill="#c01535"
        id="circle57" />
     <circle
-       cx="-2"
-       cy="28"
+       cx="-14.9474"
+       cy="-3.240459"
        r="2"
        fill="#c01535"
        id="circle58" />
     <circle
-       cx="14"
-       cy="25"
+       cx="-8.2756643"
+       cy="33.616646"
+       fill="#c01535"
+       id="circle59"
+       style="stroke-width:0.75"
+       r="1.5" />
+    <circle
+       cx="7.3544807"
+       cy="29.161686"
        r="2"
        fill="#c01535"
-       id="circle59" />
+       id="circle59-3" />
+    <circle
+       cx="2.3476782"
+       cy="42.467442"
+       r="2"
+       fill="#c01535"
+       id="circle59-6" />
+    <circle
+       cx="-21.559753"
+       cy="10.962169"
+       fill="#c01535"
+       id="circle59-8"
+       style="stroke-width:1.25"
+       r="2.5" />
+    <circle
+       cx="3.0410395"
+       cy="-0.69184202"
+       r="2"
+       fill="#c01535"
+       id="circle59-9" />
+    <circle
+       cx="23.985819"
+       cy="12.283302"
+       r="2"
+       fill="#c01535"
+       id="circle59-7" />
     <!-- Blatt/Strunk -->
     <path
        d="m -8,-14 c -6,-8 2,-14 8,-6 6,-8 14,-2 8,6"
@@ -307,45 +368,45 @@
        id="line59" />
     <!-- Gesicht -->
     <circle
-       cx="-9"
-       cy="18"
+       cx="-8.2867107"
+       cy="8.367033"
        r="5"
        fill="#ffffff"
        id="circle60" />
     <circle
-       cx="9"
-       cy="18"
+       cx="9.7132893"
+       cy="8.367033"
        r="5"
        fill="#ffffff"
        id="circle61" />
     <circle
-       cx="-8"
-       cy="19"
+       cx="-7.2867107"
+       cy="9.367033"
        r="2.5"
        fill="#1a1a2e"
        id="circle62" />
     <circle
-       cx="10"
-       cy="19"
+       cx="10.713289"
+       cy="9.367033"
        r="2.5"
        fill="#1a1a2e"
        id="circle63" />
     <!-- Glanz Augen -->
     <circle
-       cx="-7"
-       cy="18"
+       cx="-6.2867107"
+       cy="8.367033"
        r="1"
        fill="#ffffff"
        id="circle64" />
     <circle
-       cx="11"
-       cy="18"
+       cx="11.713289"
+       cy="8.367033"
        r="1"
        fill="#ffffff"
        id="circle65" />
     <!-- Fröhlicher Mund -->
     <path
-       d="m -6,30 q 6,6 12,0"
+       d="m -5.2867108,20.367033 q 6.00000002,6 12,0"
        stroke="#c01535"
        stroke-width="2"
        fill="none"
@@ -353,35 +414,35 @@
        id="path65" />
     <!-- Wangen -->
     <circle
-       cx="-14"
-       cy="26"
+       cx="-13.286711"
+       cy="16.367033"
        r="4"
        fill="#f77f28"
        opacity="0.4"
        id="circle66" />
     <circle
-       cx="14"
-       cy="26"
+       cx="14.713289"
+       cy="16.367033"
        r="4"
        fill="#f77f28"
        opacity="0.4"
        id="circle67" />
     <!-- Sprung-Linien -->
     <line
-       x1="-5"
-       y1="46"
-       x2="-12"
-       y2="58"
+       x1="-6.5020895"
+       y1="44.970798"
+       x2="-13.50209"
+       y2="56.970791"
        stroke="#e8294a"
        stroke-width="2"
        stroke-linecap="round"
        opacity="0.5"
        id="line67" />
     <line
-       x1="5"
-       y1="46"
-       x2="12"
-       y2="58"
+       x1="7.5046973"
+       y1="46.039452"
+       x2="14.504697"
+       y2="58.039448"
        stroke="#e8294a"
        stroke-width="2"
        stroke-linecap="round"
@@ -390,7 +451,7 @@
   </g>
   <!-- Banane (Mitte, auf Tuch) -->
   <g
-     transform="rotate(8,-1783.345,1851.0277)"
+     transform="rotate(8,-2112.2458,1855.3924)"
      id="g78"
      inkscape:label="zitrone">
     <!-- Bananen-Körper (gebogen) -->
@@ -478,7 +539,7 @@
   </g>
   <!-- Kiwi (rechts, hüpft freudig) -->
   <g
-     transform="rotate(5,-1619.7242,3951.1526)"
+     transform="matrix(1.0430662,0.08706433,-0.09125647,0.99514983,333.70143,202.02021)"
      id="g94"
      inkscape:label="limette">
     <!-- Körper -->
@@ -577,7 +638,8 @@
        cy="-7"
        r="2.5"
        fill="#1a1a2e"
-       id="circle89" />
+       id="circle89"
+       inkscape:label="circle89" />
     <circle
        cx="10"
        cy="-7"
@@ -598,19 +660,13 @@
        id="circle92" />
     <!-- Zunge raus (frech!) -->
     <path
-       d="M -5,8 Q 0,14 5,8"
+       d="m -4.6274906,12.257711 q 5.00009115,5.999961 10.0002088,-2.3e-5"
        stroke="#ffffff"
-       stroke-width="2"
+       stroke-width="2.00002"
        fill="none"
        stroke-linecap="round"
-       id="path92" />
-    <ellipse
-       cx="0"
-       cy="14"
-       rx="5"
-       ry="4"
-       fill="#e8294a"
-       id="ellipse92" />
+       id="path92"
+       inkscape:label="path92" />
     <!-- Kiwi-Rand -->
     <ellipse
        cx="0"
@@ -639,7 +695,7 @@
   </g>
   <!-- Orange (ganz links, kleiner im Hintergrund) -->
   <g
-     transform="matrix(0.7,0,0,0.7,60.51897,202.88987)"
+     transform="matrix(0.7,0,0,0.7,57.925576,248.70649)"
      opacity="0.85"
      id="g105"
      inkscape:label="orange">
@@ -745,7 +801,7 @@
   <g
      fill="#f7c948"
      id="g109"
-     transform="translate(-54.335734,52.318193)"
+     transform="translate(-51.74234,94.676954)"
      inkscape:label="sterne">
     <path
        d="m 165,65 2,-5 2,5 5,2 -5,2 -2,5 -2,-5 -5,-2 z"
@@ -767,36 +823,28 @@
      id="g4"
      inkscape:label="trampolin"
      transform="translate(-55.809474,119.99037)">
-    <ellipse
-       cx="257.5"
-       cy="357"
-       rx="167.5"
-       ry="14"
-       fill="rgba(0,0,0,0.10)"
-       id="ellipse1"
-       style="fill:#000000;fill-opacity:0.600418;stroke:none;stroke-width:0.951524"
-       inkscape:label="trampolin_schatten" />
     <g
        id="g3"
-       inkscape:label="trampolin_fuß">
+       inkscape:label="trampolin_fuß"
+       transform="matrix(0.9993934,0,0,1.16245,0.15693043,-58.400113)">
       <g
          id="g1"
-         transform="translate(31,-72)"
+         transform="translate(75.596287,-72.76747)"
          inkscape:label="fuß_links">
         <line
-           x1="90"
-           y1="347"
-           x2="46"
-           y2="430"
+           x1="2.2131865"
+           y1="341.7771"
+           x2="52.740509"
+           y2="420.97302"
            id="line1"
            style="fill:none;stroke:#b8c2d0;stroke-width:4;stroke-linecap:round" />
         <line
-           x1="114"
-           y1="347"
-           x2="46"
-           y2="430"
+           x1="113.91287"
+           y1="339.87451"
+           x2="46.087124"
+           y2="429.91321"
            id="line4"
-           style="fill:none;stroke:#b8c2d0;stroke-width:4;stroke-linecap:round" />
+           style="fill:none;stroke:#b8c2d0;stroke-width:4.16082;stroke-linecap:round" />
         <rect
            x="39"
            y="427"
@@ -807,190 +855,52 @@
            id="rect10" />
       </g>
       <g
-         id="g2"
-         transform="translate(-20,-72)"
+         id="g1-6"
+         transform="matrix(-1,0,0,1,441.80947,-72.76747)"
          inkscape:label="fuß_rechts">
         <line
-           x1="414"
-           y1="347"
-           x2="458"
-           y2="430"
-           id="line6"
+           x1="2.2131865"
+           y1="341.7771"
+           x2="52.740509"
+           y2="420.97302"
+           id="line1-0"
            style="fill:none;stroke:#b8c2d0;stroke-width:4;stroke-linecap:round" />
         <line
-           x1="390"
-           y1="347"
-           x2="458"
-           y2="430"
-           id="line7"
-           style="fill:none;stroke:#b8c2d0;stroke-width:4;stroke-linecap:round" />
+           x1="113.91287"
+           y1="339.87451"
+           x2="46.087124"
+           y2="429.91321"
+           id="line4-3"
+           style="fill:none;stroke:#b8c2d0;stroke-width:4.16082;stroke-linecap:round" />
         <rect
-           x="451"
+           x="39"
            y="427"
            width="14"
            height="6"
            rx="3"
            fill="#8090a8"
-           id="rect13" />
+           id="rect10-2" />
       </g>
       <line
-         x1="139.09782"
-         y1="282.00128"
-         x2="374.90219"
-         y2="282.00128"
+         x1="184.68561"
+         y1="274.78708"
+         x2="333.94733"
+         y2="274.78708"
          stroke="#98a2b0"
-         stroke-width="2.19819"
+         stroke-width="1.74889"
          stroke-linecap="round"
          id="line13"
          style="stroke:#b8c2d0;stroke-opacity:1"
          inkscape:label="fuß_strebe" />
     </g>
     <rect
-       style="fill:#1a6fd4;fill-opacity:1;stroke:#1458b0;stroke-width:1.01943;stroke-opacity:1"
+       style="fill:#1a6fd4;fill-opacity:1;stroke:#1458b0;stroke-width:0.367044;stroke-opacity:1"
        id="rect110"
-       width="383.98056"
-       height="58.980564"
-       x="65.50972"
-       y="215.50972"
-       ry="10.395989"
+       width="384.63336"
+       height="7.6329565"
+       x="65.992996"
+       y="245.19316"
+       ry="3.2400723"
        inkscape:label="trampolin_base" />
-    <g
-       stroke="#c8cdd6"
-       stroke-width="0.7"
-       clip-path="url(#tuch-clip)"
-       id="g31"
-       transform="matrix(0.96467391,0,0,1,6.6847828,-68)"
-       inkscape:label="trampolin_tuch"
-       style="fill:none;fill-opacity:1">
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.01974"
-         id="rect1"
-         width="368"
-         height="30"
-         x="76"
-         y="298" />
-      <line
-         x1="100"
-         y1="298"
-         x2="100"
-         y2="328"
-         id="line15"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="124"
-         y1="298"
-         x2="124"
-         y2="328"
-         id="line16"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="148"
-         y1="298"
-         x2="148"
-         y2="328"
-         id="line17"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="172"
-         y1="298"
-         x2="172"
-         y2="328"
-         id="line18"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="196"
-         y1="298"
-         x2="196"
-         y2="328"
-         id="line19"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="220"
-         y1="298"
-         x2="220"
-         y2="328"
-         id="line20"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="244"
-         y1="298"
-         x2="244"
-         y2="328"
-         id="line21"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="292"
-         y1="298"
-         x2="292"
-         y2="328"
-         id="line23"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="316"
-         y1="298"
-         x2="316"
-         y2="328"
-         id="line24"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="340"
-         y1="298"
-         x2="340"
-         y2="328"
-         id="line25"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="364"
-         y1="298"
-         x2="364"
-         y2="328"
-         id="line26"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="388"
-         y1="298"
-         x2="388"
-         y2="328"
-         id="line27"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="412"
-         y1="298"
-         x2="412"
-         y2="328"
-         id="line28"
-         style="fill:none;fill-opacity:1" />
-      <!-- Horizontale Gitterlinien -->
-      <line
-         x1="76"
-         y1="306"
-         x2="444"
-         y2="306"
-         id="line29"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="76"
-         y1="320"
-         x2="444"
-         y2="320"
-         id="line31"
-         style="fill:none;fill-opacity:1" />
-      <line
-         x1="76"
-         y1="313.24994"
-         x2="444"
-         y2="313.24994"
-         id="line30"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.52722;stroke-dasharray:none;stroke-opacity:1"
-         inkscape:label="rot_2" />
-      <line
-         x1="268"
-         y1="298"
-         x2="268"
-         y2="328"
-         id="line22"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.52722;stroke-dasharray:none;stroke-opacity:1"
-         inkscape:label="rot_1" />
-    </g>
   </g>
 </svg>
