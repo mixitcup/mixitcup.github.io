@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ description or 'Mix it Cup 2026 – Trampolinwettkampf des Hochschulsports Münster. 20.–22. November 2026.' }}">
+  <meta name="robots" content="noindex, nofollow">
   <title>{{ title or 'Mix it Cup 2026' }} – Trampolinwettkampf Münster</title>
 
   <!-- Google Fonts -->
@@ -20,7 +21,7 @@
   <nav class="site-nav" aria-label="Hauptnavigation">
     <div class="nav-inner">
       <a href="/" class="nav-logo" aria-label="Mix it Cup Startseite">
-        <span class="logo-mix">Mix</span><span class="logo-it">it</span> <span class="logo-cup">Cup</span>
+        {% set size = 28 %}{% set id = "nav" %}{% include "logo.njk" %}
       </a>
 
       <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-links">
@@ -47,7 +48,8 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-logo">
-        <span class="mix">Mix</span><span class="it">it</span> <span class="cup">Cup</span> 2026
+        {% set size = 36 %}{% set id = "footer" %}{% include "logo.njk" %}
+        <span style="font-family:'Fredoka One',sans-serif; font-size:2rem; color:rgba(255,255,255,0.6); margin-left:0.3rem;">2026</span>
       </div>
       <p>Trampolinturnen beim Hochschulsport Münster</p>
       <p style="margin-top:0.5rem;">

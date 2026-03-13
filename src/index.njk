@@ -13,11 +13,11 @@ description: Mix it Cup 2026 – Trampolinwettkampf des Hochschulsports Münster
         <span class="hero-eyebrow">🏆 Trampolinwettkampf · Hochschulsport Münster</span>
 
         <h1 class="hero-title">
-          <span class="mix">Mix</span><span class="it">it</span> <span class="cup">Cup</span>
+          {% set size = 72 %}{% set id = "hero" %}{% include "logo.njk" %}
           <span class="year">2026</span>
         </h1>
 
-        <p class="hero-subtitle">Wenn Früchte springen und Smoothies fliegen!</p>
+        <p class="hero-subtitle">Spring rein, misch dich ein!</p>
 
         <div class="hero-details">
           <div class="hero-detail date">
@@ -88,14 +88,6 @@ description: Mix it Cup 2026 – Trampolinwettkampf des Hochschulsports Münster
     <div class="cards-grid">
 
       <div class="card">
-        <div class="card-accent" style="background: var(--color-strawberry);"></div>
-        <div class="card-icon">🤸</div>
-        <h3>Der Wettkampf</h3>
-        <p>Synchronübungen, Pflichtübungen und der spektakuläre Paarungstanz – in gemischten Teams aus verschiedenen Unis.</p>
-        <a href="/ausschreibung/" class="btn btn-primary" style="margin-top:1rem; font-size:0.9rem; padding:0.6rem 1.25rem;">Mehr erfahren</a>
-      </div>
-
-      <div class="card">
         <div class="card-accent" style="background: var(--color-kiwi);"></div>
         <div class="card-icon">🤝</div>
         <h3>Mix it up!</h3>
@@ -113,7 +105,7 @@ description: Mix it Cup 2026 – Trampolinwettkampf des Hochschulsports Münster
         <div class="card-accent" style="background: var(--color-blueberry);"></div>
         <div class="card-icon">🏠</div>
         <h3>Übernachtung</h3>
-        <p>Wir übernachten gemeinsam in der Wettkampfhalle. Isomatte und Schlafsack mitbringen – Abenteuer-Feeling inklusive!</p>
+        <p>Wir übernachten gemeinsam in der Wettkampfhalle. Isomatte und Schlafsack mitbringen!</p>
       </div>
 
     </div>
@@ -153,30 +145,26 @@ description: Mix it Cup 2026 – Trampolinwettkampf des Hochschulsports Münster
         <div class="schedule-items">
           <div class="schedule-item">
             <span class="schedule-time">08:00 – 10:00</span>
-            <span class="schedule-event">Frühstück</span>
+            <span class="schedule-event">Frühstück &amp; Einturnen</span>
           </div>
           <div class="schedule-item">
-            <span class="schedule-time">08:00 – 11:00</span>
-            <span class="schedule-event">Einturnen</span>
-          </div>
-          <div class="schedule-item">
-            <span class="schedule-time">11:05</span>
+            <span class="schedule-time">11:00 - 13:15</span>
             <span class="schedule-event">Pflichtübungen</span>
           </div>
           <div class="schedule-item">
-            <span class="schedule-time">13:15</span>
-            <span class="schedule-event">Einturnen &amp; Pause</span>
+            <span class="schedule-time">13:15 - 14:15</span>
+            <span class="schedule-event">Pause &amp; Einturnen</span>
           </div>
           <div class="schedule-item">
-            <span class="schedule-time">14:20</span>
+            <span class="schedule-time">14:30 - 16:45</span>
             <span class="schedule-event">Paarungstänze (Kür)</span>
           </div>
           <div class="schedule-item">
-            <span class="schedule-time">ca. 17:15</span>
+            <span class="schedule-time">17:15 - 18:00</span>
             <span class="schedule-event">Siegerehrung 🏆</span>
           </div>
           <div class="schedule-item">
-            <span class="schedule-time">Abends</span>
+            <span class="schedule-time">19:00 - 02:00</span>
             <span class="schedule-event">Abendessen &amp; Party 🎊</span>
           </div>
         </div>
@@ -187,11 +175,11 @@ description: Mix it Cup 2026 – Trampolinwettkampf des Hochschulsports Münster
         <div class="schedule-items">
           <div class="schedule-item">
             <span class="schedule-time">09:00</span>
-            <span class="schedule-event">Brunch &amp; gemütliches Ausklingen</span>
+            <span class="schedule-event">Brunch</span>
           </div>
           <div class="schedule-item">
             <span class="schedule-time">bis 13:00</span>
-            <span class="schedule-event">Abfahrt – bis nächstes Jahr! 👋</span>
+            <span class="schedule-event">Abreise 👋</span>
           </div>
         </div>
       </div>

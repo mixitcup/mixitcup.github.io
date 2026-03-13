@@ -1,5 +1,22 @@
 // Mix it Cup 2026 – Main JS
 
+// ---- Passwortschutz (Preview) ----
+(function () {
+  const PW = 'mixit2026';
+  const KEY = 'mixitcup_auth';
+  if (sessionStorage.getItem(KEY) !== '1') {
+    document.documentElement.style.visibility = 'hidden';
+    const input = prompt('Passwort:');
+    if (input === PW) {
+      sessionStorage.setItem(KEY, '1');
+      document.documentElement.style.visibility = '';
+    } else {
+      document.documentElement.style.visibility = '';
+      document.body.innerHTML = '<p style="font-family:sans-serif;padding:2rem;">Falsches Passwort.</p>';
+    }
+  }
+})();
+
 // ---- Mobile Navigation ----
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');

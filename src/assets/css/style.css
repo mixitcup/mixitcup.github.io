@@ -100,9 +100,7 @@ section {
   gap: 0.5rem;
 }
 
-.nav-logo .logo-mix { color: var(--color-strawberry); }
-.nav-logo .logo-it { color: var(--color-kiwi); }
-.nav-logo .logo-cup { color: var(--color-orange); }
+/* Logo-Farben werden via SVG-Pattern in logo.njk gesetzt */
 
 .nav-links {
   display: flex;
@@ -204,20 +202,25 @@ section {
 }
 
 .hero-title {
-  font-size: clamp(2.8rem, 6vw, 5rem);
   margin-bottom: 0.5rem;
   line-height: 1.0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
 }
 
-.hero-title .mix { color: var(--color-strawberry); display: inline-block; transform: rotate(-2deg); }
-.hero-title .it { color: var(--color-kiwi); }
-.hero-title .cup { color: var(--color-orange); display: inline-block; transform: rotate(1deg); }
+.hero-title svg {
+  max-width: 100%;
+  height: auto;
+}
+
 .hero-title .year {
-  display: block;
-  font-size: 0.45em;
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
   color: var(--color-text-light);
-  transform: none;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
+  margin-left: 0.1rem;
 }
 
 .hero-subtitle {
@@ -537,14 +540,12 @@ section {
 .site-footer a { color: var(--color-smoothie); }
 
 .footer-logo {
-  font-family: var(--font-display);
-  font-size: 2rem;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
 }
-
-.footer-logo .mix { color: var(--color-strawberry); }
-.footer-logo .it { color: var(--color-smoothie); }
-.footer-logo .cup { color: var(--color-orange); }
 
 /* --- Page Hero (subpages) --- */
 .page-hero {
