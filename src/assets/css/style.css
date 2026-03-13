@@ -3,6 +3,19 @@
    Theme: Freche Früchte im Mixer
    =========================== */
 
+/* --- Passwortschutz: Seite standardmäßig versteckt (3 Schichten) --- */
+body {
+  opacity: 0;
+  transform: translateY(-9999px);
+  pointer-events: none;
+}
+body.unlocked {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition: opacity 0.3s ease;
+}
+
 /* --- Custom Properties --- */
 :root {
   --color-strawberry: #e8294a;
@@ -585,9 +598,9 @@ section {
   padding: 1.5rem;
   color: var(--color-white);
 }
-.exercise-card-header.level-1 { background: linear-gradient(135deg, var(--color-kiwi), #4a9420); }
-.exercise-card-header.level-2 { background: linear-gradient(135deg, var(--color-orange), #d9651a); }
-.exercise-card-header.level-3 { background: linear-gradient(135deg, var(--color-strawberry), #c01535); }
+.exercise-card-header.level-1 { background: var(--color-banana) }
+.exercise-card-header.level-2 { background: var(--color-orange) }
+.exercise-card-header.level-3 { background: var(--color-kiwi) }
 
 .exercise-card-header h3 {
   font-size: 1.3rem;

@@ -4,15 +4,19 @@
 (function () {
   const PW = 'mixit2026';
   const KEY = 'mixitcup_auth';
-  if (sessionStorage.getItem(KEY) !== '1') {
-    document.documentElement.style.visibility = 'hidden';
+  function unlock() {
+    document.body.classList.add('unlocked');
+  }
+  if (sessionStorage.getItem(KEY) === '1') {
+    unlock();
+  } else {
     const input = prompt('Passwort:');
     if (input === PW) {
       sessionStorage.setItem(KEY, '1');
-      document.documentElement.style.visibility = '';
+      unlock();
     } else {
-      document.documentElement.style.visibility = '';
-      document.body.innerHTML = '<p style="font-family:sans-serif;padding:2rem;">Falsches Passwort.</p>';
+      document.body.classList.add('unlocked');
+      document.body.innerHTML = '<p style="font-family:sans-serif;padding:2rem;color:#333;">Falsches Passwort.</p>';
     }
   }
 })();
