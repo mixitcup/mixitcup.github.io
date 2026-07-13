@@ -21,7 +21,7 @@
   <nav class="site-nav" aria-label="Hauptnavigation">
     <div class="nav-inner">
       <a href="/" class="nav-logo" aria-label="Mix it Cup Startseite">
-        {% set size = 28 %}{% set id = "nav" %}{% include "logo.njk" %}
+        <img src="/assets/img/Logo-dark.svg" alt="Mix it Cup" width="162" height="60">
       </a>
 
       <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-links">
@@ -32,8 +32,10 @@
 
       <ul class="nav-links" id="nav-links" role="list">
         <li><a href="/" class="{{ 'active' if page.url == '/' }}">Start</a></li>
-        <li><a href="/ausschreibung/" class="{{ 'active' if page.url == '/ausschreibung/' }}">Ausschreibung</a></li>
-        <li><a href="/anmeldung/" class="{{ 'active' if page.url == '/anmeldung/' }}">Anmeldung</a></li>
+        <li><a href="/wettkampf/" class="{{ 'active' if page.url == '/wettkampf/' }}">Wettkampf</a></li>
+        <li><a href="/ablauf/" class="{{ 'active' if page.url == '/ablauf/' }}">Ablauf</a></li>
+        <li><a href="/merch/" class="{{ 'active' if page.url == '/merch/' }}">Merch</a></li>
+        <li><a href="/meldung/" class="{{ 'active' if page.url == '/meldung/' }}">Meldung</a></li>
         <li><a href="/anreise/" class="{{ 'active' if page.url == '/anreise/' }}">Anreise</a></li>
       </ul>
     </div>
@@ -48,12 +50,20 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-logo">
-        {% set size = 36 %}{% set id = "footer" %}{% include "logo.njk" %}
+        <img src="/assets/img/Logo-white.svg" alt="Mix it Cup" width="208" height="78">
         <span style="font-family:'Fredoka One',sans-serif; font-size:2rem; color:rgba(255,255,255,0.6); margin-left:0.3rem;">2026</span>
       </div>
       <p>Trampolinturnen beim Hochschulsport Münster</p>
       <p style="margin-top:0.5rem;">
         Universitätssporthalle · Horstmarer Landweg 51 · 48149 Münster
+      </p>
+      <p style="margin-top:1rem;">
+        <a href="mailto:mixitcup.orga@uni-muenster.de">mixitcup.orga@uni-muenster.de</a>
+        &nbsp;·&nbsp;
+        <a href="/ausschreibung.pdf" target="_blank" rel="noopener">Ausschreibung als PDF</a>
+      </p>
+      <p style="margin-top:0.5rem; font-family:'Fredoka One',sans-serif; letter-spacing:0.05em;">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" style="color:inherit;">#mixitcup2026</a>
       </p>
       <p style="margin-top:1rem; opacity:0.5; font-size:0.8rem;">
         &copy; 2026 Hochschulsport Münster – Trampolinturnen
