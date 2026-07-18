@@ -35,9 +35,9 @@ jobs:
       - name: Copy download files to _site
         run: |
               cp ausschreibung.pdf _site/ausschreibung.pdf
-              cp meldetabelle.xlsx _site/meldetabelle.xlsx
-      #- name: Copy Ausschreibung to _site
-      #  run: cp -r ausschreibung.pdf _site/ausschreibung.pdf
+              cp meldetabelle_mixitcup2026.xlsx _site/meldetabelle.xlsx
+              cp awarenesskonzept.pdf _site/awarenesskonzept.pdf
+              cp selbsterklaerung.pdf _site/selbsterklaerung.pdf
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
