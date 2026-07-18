@@ -709,19 +709,19 @@ main>section.info-section:first-child {
 }
 
 .exercise-card-header.level-1 {
-  background: linear-gradient(to right, color-mix(in oklab, var(--color-strawberry, #fff) 50%, white) 0%, var(--color-strawberry, #fff) 100%);
+  background: linear-gradient(to right, color-mix(in oklab, var(--color-strawberry, #fff) 25%, white) 0%, var(--color-strawberry, #fff) 100%);
 }
 
 .exercise-card-header.level-2 {
-  background: linear-gradient(to right, color-mix(in oklab, var(--color-mandarin, #fff) 50%, white) 0%, var(--color-mandarin, #fff) 100%);
+  background: linear-gradient(to right, color-mix(in oklab, var(--color-mandarin, #fff) 25%, white) 0%, var(--color-mandarin, #fff) 100%);
 }
 
 .exercise-card-header.level-3 {
-  background: linear-gradient(to right, color-mix(in oklab, var(--color-banana, #fff) 50%, white) 0%, var(--color-banana, #fff) 100%);
+  background: linear-gradient(to right, color-mix(in oklab, var(--color-banana, #fff) 25%, white) 0%, var(--color-banana, #fff) 100%);
 }
 
 .exercise-card-header.level-4 {
-  background: linear-gradient(to right, color-mix(in oklab, var(--color-lime, #fff) 50%, white) 0%, var(--color-lime, #fff) 100%);
+  background: linear-gradient(to right, color-mix(in oklab, var(--color-lime, #fff) 25%, white) 0%, var(--color-lime, #fff) 100%);
 }
 
 .exercise-card.level-1 {
