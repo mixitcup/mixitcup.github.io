@@ -32,8 +32,12 @@ jobs:
       - name: Build with Eleventy
         run: npm run build
 
-      - name: Copy Ausschreibung to _site
-        run: cp -r ausschreibung.pdf _site/ausschreibung.pdf
+      - name: Copy download files to _site
+        run: |
+              cp ausschreibung.pdf _site/ausschreibung.pdf
+              cp meldetabelle.xlsx _site/meldetabelle.xlsx
+      #- name: Copy Ausschreibung to _site
+      #  run: cp -r ausschreibung.pdf _site/ausschreibung.pdf
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
