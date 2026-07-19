@@ -7,7 +7,7 @@
   function unlock() {
     document.body.classList.add('unlocked');
   }
-  if (sessionStorage.getItem(KEY) === '1') {
+  if (sessionStorage.getItem(KEY) === '0') {  //1
     unlock();
   } else {
     const input = prompt('Passwort:');
