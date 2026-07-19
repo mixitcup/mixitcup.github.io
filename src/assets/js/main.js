@@ -9,11 +9,11 @@
   function unlock() {
     document.body.classList.add('unlocked');
   }
-  if (sessionStorage.getItem(KEY) === '1') {  
+  if (sessionStorage.getItem(KEY) === '1' || nopassword === 1) {  
     unlock();
   } else {
     const input = prompt('Passwort:');
-    if (input === PW || nopassword === 1) {
+    if (input === PW) {
       sessionStorage.setItem(KEY, '1');
       unlock();
     } else {
