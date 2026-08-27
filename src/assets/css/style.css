@@ -340,6 +340,31 @@ section {
   flex-wrap: wrap;
 }
 
+.hero-cta .btn {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 210px;
+  padding: 0.9rem 1.4rem;
+  line-height: 1.1;
+}
+
+.btn-label {
+  display: block;
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+
+.btn-subtitle {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  opacity: 0.9;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .hero-illustration {
   position: relative;
   z-index: 1;
@@ -1507,6 +1532,11 @@ section[id] {
 
   .hero-cta {
     justify-content: center;
+  }
+
+  .hero-cta .btn {
+    width: 100%;
+    max-width: 260px;
   }
 
   .hero-illustration {

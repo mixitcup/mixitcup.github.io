@@ -1,8 +1,9 @@
 module.exports = function (eleventyConfig) {
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/assets");
-  // Copy rendered PDF (produced by ../ausschreibung workflow) into the site root
+  // Copy rendered PDFs (produced by the PDF export workflow) into the site root
   eleventyConfig.addPassthroughCopy("ausschreibung.pdf");
+  eleventyConfig.addPassthroughCopy("ausschreibung_en.pdf");
 
   eleventyConfig.setServerOptions({
     showAllHosts: true,
