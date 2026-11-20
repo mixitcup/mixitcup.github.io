@@ -4,6 +4,8 @@ module.exports = function (eleventyConfig) {
   // Copy rendered PDFs (produced by the PDF export workflow) into the site root
   eleventyConfig.addPassthroughCopy("ausschreibung.pdf");
   eleventyConfig.addPassthroughCopy("ausschreibung_en.pdf");
+  eleventyConfig.addPassthroughCopy("Teams.pdf");
+  eleventyConfig.addPassthroughCopy("Zeitplan.pdf");
 
   eleventyConfig.setServerOptions({
     showAllHosts: true,
