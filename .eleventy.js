@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("ausschreibung_en.pdf");
   eleventyConfig.addPassthroughCopy("Teams.pdf");
   eleventyConfig.addPassthroughCopy("Zeitplan.pdf");
+  eleventyConfig.addPassthroughCopy("Startliste.pdf");
 
   eleventyConfig.setServerOptions({
     showAllHosts: true,
