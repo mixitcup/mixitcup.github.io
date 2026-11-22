@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Mix it Cup 2026 – Trampolinwettkampf Hochschulsport Münster",
   "scripts": {
+    "clean": "node -e \"require('node:fs').rmSync('_site', { recursive: true, force: true })\"",
+    "prestart": "npm run clean",
     "start": "eleventy --serve",
+    "prebuild": "npm run clean",
     "build": "eleventy"
   },
   "devDependencies": {

@@ -1,12 +1,13 @@
 module.exports = function (eleventyConfig) {
-  // Copy static assets
-  eleventyConfig.addPassthroughCopy("src/assets");
-  // Copy rendered PDFs (produced by the PDF export workflow) into the site root
-  eleventyConfig.addPassthroughCopy("ausschreibung.pdf");
-  eleventyConfig.addPassthroughCopy("ausschreibung_en.pdf");
-  eleventyConfig.addPassthroughCopy("Teams.pdf");
-  eleventyConfig.addPassthroughCopy("Zeitplan.pdf");
-  eleventyConfig.addPassthroughCopy("Startliste.pdf");
+  eleventyConfig.addPassthroughCopy("src/assets/css/style.css");
+  eleventyConfig.addPassthroughCopy("src/ergebnisse/*.pdf");
+  for (const image of [
+    "favicon", "Logo-dark", "Logo-white", "Mixer_white",
+    "Erdbeere", "Mandarine", "Banane", "Limette",
+    "Wettkampfschema", "TrampolinAnspruenge",
+  ]) {
+    eleventyConfig.addPassthroughCopy(`src/assets/img/${image}.svg`);
+  }
 
   eleventyConfig.setServerOptions({
     showAllHosts: true,

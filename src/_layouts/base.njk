@@ -24,19 +24,9 @@
         <img src="/assets/img/Logo-dark.svg" alt="Mix it Cup" width="162" height="60">
       </a>
 
-      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-links">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <ul class="nav-links" id="nav-links" role="list">
-        <li><a href="/" class="{{ 'active' if page.url == '/' }}">Start</a></li>
-        <li><a href="/wettkampf/" class="{{ 'active' if page.url == '/wettkampf/' }}">Wettkampf</a></li>
-        <li><a href="/ablauf/" class="{{ 'active' if page.url == '/ablauf/' }}">Ablauf</a></li>
-        <li><a href="/anreise/" class="{{ 'active' if page.url == '/anreise/' }}">Anreise</a></li>
-        <li><a href="/faq/" class="{{ 'active' if page.url == '/faq/' }}"{% if page.url == '/faq/' %} aria-current="page"{% endif %}>FAQ</a></li>
-        <li><a href="/awareness/" class="{{ 'active' if page.url == '/awareness/' }}">Awareness</a></li>
+      <ul class="nav-links" role="list">
+        <li><a href="/"{% if page.url == '/' %} class="active" aria-current="page"{% endif %}>Start</a></li>
+        <li><a href="/wettkampf/"{% if page.url == '/wettkampf/' %} class="active" aria-current="page"{% endif %}>Wettkampf</a></li>
       </ul>
     </div>
   </nav>
@@ -59,8 +49,6 @@
       </p>
       <p style="margin-top:1rem;">
         <a href="mailto:mixitcup.orga@uni-muenster.de">mixitcup.orga@uni-muenster.de</a>
-        &nbsp;·&nbsp;
-        <a href="/ausschreibung.pdf" target="_blank" rel="noopener">Ausschreibung als PDF</a>
       </p>
       <p style="margin-top:0.5rem; font-family:'Fredoka One',sans-serif; letter-spacing:0.05em;">
         <a href="https://www.instagram.com/hsp_ms_trampolin?igsh=NjZmcXl4bHFuNG9s" target="_blank" rel="noopener" style="color:inherit;">#mixitcup2026</a>
@@ -71,7 +59,5 @@
     </div>
   </footer>
 
-  <!-- Countdown + Mobile Nav JS -->
-  <script src="/assets/js/main.js"></script>
 </body>
 </html>

@@ -1,96 +1,46 @@
 ---
 layout: base.njk
-title: Home
-description: Mix it-Cup 2026 – Trampolinwettkampf in gemischten Teams. 20.–22. November 2026 in der Universitätssporthalle Münster. #mixitcup2026
+title: Ergebnisse
+description: Die Ergebnisse des Mix it Cups 2026 in Münster. Hier findet ihr die Ergebnis-PDFs aller vier Wettkampfstufen.
+stufen:
+  - name: Eifrige Erdbeere
+    frucht: Erdbeere
+    seiten: 22
+  - name: Mutige Mandarine
+    frucht: Mandarine
+    seiten: 46
+  - name: Beeindruckende Banane
+    frucht: Banane
+    seiten: 40
+  - name: Legendäre Limette
+    frucht: Limette
+    seiten: 16
 ---
 
-<!-- ==================== HERO ==================== -->
-<section class="hero">
-  <div class="container">
-    <nav class="cup-downloads" aria-label="Wettkampf-Downloads">
-      <strong>Wettkampf-Downloads</strong>
-      <a class="btn btn-banana" href="/Teams.pdf" download>
-        Teams <span>PDF herunterladen</span>
-      </a>
-      <a class="btn btn-banana" href="/Zeitplan.pdf" download>
-        Zeitplan <span>PDF herunterladen</span>
-      </a>
-      <a class="btn btn-banana" href="/Startliste.pdf" download>
-        Startliste <span>PDF herunterladen</span>
-      </a>
-    </nav>
-
-    <div class="hero-inner">
-
-      <div class="hero-content">
-        <!-- <span class="hero-eyebrow">🏆 Trampolinwettkampf · HSP Münster Trampolin n.e.V.</span> -->
-
-        <h1 class="hero-title">
-          <img src="/assets/img/Logo-dark.svg" alt="Mix it Cup" width="260" height="97">
-          <span class="year">2026</span>
-        </h1>
-
-        <p class="hero-subtitle">Spring rein, misch dich ein!</p>
-        <span class="hero-hashtag">#mixitcup2026</span>
-
-        <div class="hero-details">
-          <div class="hero-detail date">
-            <span class="icon">🗒</span>
-            <span>20.–22. November 2026</span>
-          </div>
-          <div class="hero-detail location">
-            <span class="icon">📍</span>
-            <span>Universitätssporthalle, Horstmarer Landweg 51, Münster</span>
-          </div>
-        </div>
-
-        <div class="hero-cta">
-          <a href="/ausschreibung.pdf" target="_blank" rel="noopener" class="btn btn-primary">
-            <span class="btn-label">Ausschreibung PDF</span>
-            <span class="btn-subtitle">deutsche Version</span>
-          </a>
-          <a href="/ausschreibung_en.pdf" target="_blank" rel="noopener" class="btn btn-primary">
-            <span class="btn-label">Announcement PDF</span>
-            <span class="btn-subtitle">english version</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="hero-illustration">
-        <img
-          src="/assets/img/Mixer_white.svg"
-          alt="Trampolin-Mixer-Illustration"
-        >
-      </div>
-
+<header class="results-intro" id="ergebnisse">
+  <div class="container results-intro-inner">
+    <div>
+      <p class="event-date">20.–22. November 2026 · Münster</p>
+      <h1>Ergebnisse</h1>
+      <p class="event-thanks">Danke an alle, die beim Mix it Cup 2026 gesprungen sind, gewertet oder mitgeholfen haben!</p>
     </div>
+    <img class="results-mixer" src="/assets/img/Mixer_white.svg" alt="" width="120" height="185">
   </div>
-</section>
+</header>
 
-<!-- ==================== COUNTDOWN ==================== -->
-<section class="countdown-section">
-  <div class="container">
-    <h2>⏳ Noch bis zum Mix it-Cup 2026</h2>
-    <div class="countdown" id="countdown" aria-live="polite" aria-label="Countdown bis zum Mix it Cup">
-      <div class="countdown-item">
-        <span class="countdown-number" id="cd-days">--</span>
-        <span class="countdown-label">Tage</span>
-      </div>
-      <span class="countdown-sep" aria-hidden="true">:</span>
-      <div class="countdown-item">
-        <span class="countdown-number" id="cd-hours">--</span>
-        <span class="countdown-label">Stunden</span>
-      </div>
-      <span class="countdown-sep" aria-hidden="true">:</span>
-      <div class="countdown-item">
-        <span class="countdown-number" id="cd-minutes">--</span>
-        <span class="countdown-label">Minuten</span>
-      </div>
-      <span class="countdown-sep" aria-hidden="true">:</span>
-      <div class="countdown-item">
-        <span class="countdown-number" id="cd-seconds">--</span>
-        <span class="countdown-label">Sekunden</span>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="container">
+  <ul class="result-downloads" aria-label="Ergebnis-PDFs nach Wettkampfstufe">
+    {% for stufe in stufen %}
+      <li>
+        <a class="result-download" href="/ergebnisse/{{ stufe.frucht | lower }}.pdf" download="Mix-it-Cup-2026-Ergebnisse-{{ stufe.frucht }}.pdf">
+          <img src="/assets/img/{{ stufe.frucht }}.svg" alt="" width="64" height="64">
+          <div>
+            <span class="result-level">Stufe {{ loop.index }}</span>
+            <h2>{{ stufe.name }}</h2>
+            <span class="result-file"><strong>PDF herunterladen</strong> · {{ stufe.seiten }} Seiten</span>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
